@@ -1,0 +1,6 @@
+wave,directed_rows,expectation_observed_rows,expectation_missing_rows,coverage,observed_expectation_match_rate,missing_expectation_match_rate
+1,200,200,0,1.0,0.31,
+2,608,592,16,0.9736842105263158,0.10304054054054054,0.0625
+3,200,180,20,0.9,0.13333333333333333,0.1
+4,648,648,0,1.0,0.2006172839506173,
+5,190,180,10,0.9473684210526315,0.29444444444444445,0.1

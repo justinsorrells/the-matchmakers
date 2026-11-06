@@ -1,0 +1,85 @@
+{
+  "core_rating_correlations_with_match": {
+    "ambition": 0.010592167459319712,
+    "attractive": 0.036438896254412156,
+    "funny": 0.004326607505919135,
+    "intelligence": 0.0510663105935834,
+    "sincere": -0.001965149852550955
+  },
+  "dataset": {
+    "columns": 123,
+    "rows": 8378,
+    "waves": 21
+  },
+  "largest_absolute_core_correlation": 0.0510663105935834,
+  "missingness": {
+    "core_rating_missing_rows": {
+      "ambition": 105,
+      "attractive": 105,
+      "funny": 105,
+      "intelligence": 105,
+      "sincere": 105
+    },
+    "expected_interested_observed_by_wave": {
+      "1": 200,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "2": 592,
+      "20": 0,
+      "21": 0,
+      "3": 180,
+      "4": 648,
+      "5": 180,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "expected_num_interested_in_me_missing_rows": 6578,
+    "expected_num_matches_missing_rows": 1173,
+    "rows_with_any_missing_excluding_expected_interested": 3519,
+    "rows_with_any_missing_excluding_expected_interested_rate": 0.4200286464550012,
+    "rows_with_any_missing_value": 7330,
+    "rows_with_any_missing_value_rate": 0.8749104798281213
+  },
+  "outcome": {
+    "mutual_matches_from_positive_rows": 690,
+    "negative_rows": 6998,
+    "positive_row_prevalence": 0.16471711625686322,
+    "positive_rows": 1380,
+    "wave_rate_max": 0.31,
+    "wave_rate_max_wave": 1,
+    "wave_rate_min": 0.08333333333333333,
+    "wave_rate_min_wave": 18
+  },
+  "participants": {
+    "groups_with_missing_core_rating": 9,
+    "rows_per_group_max": 22,
+    "rows_per_group_mean": 15.20508166969147,
+    "rows_per_group_min": 5,
+    "signature_groups": 551
+  },
+  "reciprocal_rows": {
+    "candidate_count_distribution": {
+      "0": 14,
+      "1": 8364
+    },
+    "match_label_agreement": 1.0,
+    "paired_rows": 8364,
+    "reciprocal_pairs": 4182,
+    "unpaired_rows": 14,
+    "unpaired_rows_by_wave": {
+      "15": 2,
+      "17": 2,
+      "5": 10
+    }
+  }
+}

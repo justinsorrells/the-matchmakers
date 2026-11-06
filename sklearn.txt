@@ -1,0 +1,5 @@
+sklearn.datasets ~~> utility to load popular datasets and artifical data generators
+sklearn.neighbors.KNeighborsClassifier(n_neighbors=kk) ~~> instantiate KNeighborsClassifier
+conf = sklearn.metrics.confusion_matrix(y_true, y_pred)
+sklearn.metrics.ConfusionMatrixDisplay(conf) ~~> display
+

@@ -1,0 +1,90 @@
+{
+  "artifacts": [
+    "actor_outer_predictions.csv",
+    "actor_metrics_by_wave.csv",
+    "actor_tuning_by_outer_wave.csv",
+    "actor_tuning_by_inner_wave.csv",
+    "average_precision_by_wave.csv",
+    "average_precision_permutations.csv",
+    "reliability_table.csv",
+    "reliability_plot.png",
+    "participant_predictions.csv",
+    "participant_metrics_by_wave.csv",
+    "resampling_draws.csv",
+    "resampling_intervals.csv",
+    "m3_summary.json",
+    "m3_manifest.json"
+  ],
+  "environment": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "python": "3.14.5",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "feature_contract": {
+    "allowlist": "core",
+    "features": [
+      "attractive",
+      "sincere",
+      "intelligence",
+      "funny",
+      "ambition"
+    ],
+    "policy_file": "output/audit/v5/prohibited_features.json"
+  },
+  "fold_contract": {
+    "actor_folds_recomputed": false,
+    "inner": "GroupKFold(n_splits=5, shuffle=False) over each outer training set's 20 waves",
+    "outer": "leave-one-wave-out over the 21 observed waves",
+    "participant_ids_and_actor_folds": "output/audit/v5/participant_assignments.csv"
+  },
+  "frozen_input_sha256": {
+    "analysis/data_audit.py": "1d4cc4ead80ed8f8494cf7b27c39938bbf8cab06003d35b5106900c60839fbda",
+    "output/audit/v5/couple_fold_membership.csv": "eca04690aad516b1a1f614edf877880eb2bdd70d3641449af370ec434e41bd6f",
+    "output/audit/v5/data_audit.json": "467da507d6bc6a5225e687ef15ed61eb69782f20cc00c7c3bd17529d7e414afa",
+    "output/audit/v5/one_sided_rows.csv": "349ac0e9145a30849d72b1b6ffa23a300b39992ce8ceffcbc1f2b521328ed7f9",
+    "output/audit/v5/participant_assignments.csv": "8c0176bf485565312e481dbd97c24e15f7586df68636be7b920ebc7426aa9e9e",
+    "output/audit/v5/prohibited_features.json": "178f7d706d45b6d17eaa85b07aa73cf327f33e5a35ad8fa0efefe515378a0ec7",
+    "output/audit/v5/reciprocal_pairs.csv": "377126fbde998feb8fb51853d3cb3d2cfcff7b05ea2b1c0a3fb69b0a80637b16",
+    "output/docx/The_Matchmakers_Project_Charter.docx": "7562981ddbf203a9e31b1d96dbb5694f7a931eed1c79d01f0f1900210c1cb8ee",
+    "speeddating.arff": "121ad0ca93e82c21964709bdcea222119a362cfdd8f4c38d1f010bc830dda38a"
+  },
+  "milestone": 3,
+  "randomness": {
+    "folds_and_stochastic_estimators": 4622,
+    "note": "LOWO and GroupKFold are deterministic; logistic lbfgs is non-stochastic.",
+    "permutations": 4624,
+    "resampling": 4623
+  },
+  "source_columns": {
+    "output/audit/v5/one_sided_rows.csv": [
+      "row_index",
+      "wave"
+    ],
+    "output/audit/v5/participant_assignments.csv": [
+      "row_index",
+      "wave",
+      "participant_id",
+      "actor_fold",
+      "match",
+      "core_rating_missing"
+    ],
+    "output/audit/v5/prohibited_features.json": [
+      "feature_allowlists.core",
+      "categorical_d_columns",
+      "prohibited_predictive_features"
+    ],
+    "speeddating.arff": [
+      "row_index",
+      "wave",
+      "attractive",
+      "sincere",
+      "intelligence",
+      "funny",
+      "ambition",
+      "match"
+    ]
+  }
+}

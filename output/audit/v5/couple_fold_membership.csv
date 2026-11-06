@@ -1,0 +1,6 @@
+fold,all_train_pairs,all_test_pairs,all_dropped_pairs,complete_core_train_pairs,complete_core_test_pairs,complete_core_dropped_pairs,complete_core_test_matches
+0,2537,207,1440,2475,202,1402,20
+1,2630,180,1374,2547,180,1352,31
+2,2670,170,1344,2609,164,1306,29
+3,2735,154,1295,2692,145,1242,27
+4,2825,134,1225,2739,134,1206,25

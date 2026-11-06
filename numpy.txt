@@ -1,0 +1,6 @@
+	- np.arange([start,], stop, step) ~~> return np.ndarray. start is included. stop is exclusive
+	- np.meshgrid(a, shape, order='C') ~~> a is input array, shape is a tuple of integers, and order is column or row by row. For shape, -1 is a wildcard
+	- np.hstack ~~> adds columns side by side
+	- np.vstack ~~> adds rows on top of each other
+	- axis = 0 ~~> eliminates rows by collapsing downwards
+	- axis = 1 ~~> eliminates columns by collapsing sideways

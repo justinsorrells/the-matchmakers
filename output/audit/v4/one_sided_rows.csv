@@ -1,0 +1,11 @@
+row_index,wave,gender,age,age_o,decision,decision_o,match,participant_id,classification
+1755,5.0,male,22.0,,0,0,0,P0121,one_sided_record
+1765,5.0,male,18.0,,0,0,0,P0122,one_sided_record
+1775,5.0,male,22.0,,1,0,0,P0123,one_sided_record
+1785,5.0,male,21.0,,0,0,0,P0124,one_sided_record
+1795,5.0,male,22.0,,0,0,0,P0125,one_sided_record
+1805,5.0,male,22.0,,0,0,0,P0126,one_sided_record
+1815,5.0,male,21.0,,1,0,0,P0127,one_sided_record
+1825,5.0,male,,,1,0,0,P0128,one_sided_record
+1835,5.0,male,20.0,,0,0,0,P0129,one_sided_record
+1845,5.0,male,19.0,,0,0,0,P0130,one_sided_record
